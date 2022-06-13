@@ -1,9 +1,10 @@
-function Footer() {
+function Footer({counter}) {
     return (
-      <div className="bg-[#FA8072] mb-3 h-10">&copy; Ghaida AL-Momani. Jordan, Amman</div>
+      <div className="bg-[#FA8072]  flex justify-between mb-3 h-10"><p className="text-xl  animate-pulse">{counter} Locations WorldWide</p><p>&copy; Ghaida AL-Momani. Jordan, Amman</p></div>
     )
   }
   
+
   export default Footer
 
 
